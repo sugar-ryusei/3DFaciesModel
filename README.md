@@ -1,17 +1,19 @@
 # 3DFaciesModel
 
-*3DFaciesModel* proposes a new method to construct a 3D facies model of an outcrop using a convolutional neural network (CNN) model based on <a href="" target="_blank">Sato et al. (2025)</a>.
+*3DFaciesModel* introduces a novel method to construct a 3D facies model of an outcrop using a convolutional neural network (CNN) model. This method is based on <a href="" target="_blank">Sato et al. (2025)</a>.
 
 ![](https://github.com/sugar-ryusei/3DFaciesModel/blob/main/figure/facies_models.png)
 
-This method uses a 3D point cloud of an outcrop constructed by drone photogrammetry, which is effective even for large-scale or inaccessible outcrops.
+This approach utilizes a 3D point cloud of an outcrop constructed by drone photogrammetry, which is effective even for large-scale or inaccessible outcrops.
 
 Created by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target="_blank">Kazuki Kikuchi</a>, <a href=https://turbidite.secret.jp/>Hajime Naruse</a> from Kyoto University, Japan.
 
 
 ## Usage
 
-To reproduce the 3D facies model, run the Python files in the code folder in this order.
+*3DFaciesModel* provides a part of the outcrop data to allow testing of the programs.
+The data includes the outcrop of a mass-transport deposit exposed in the Upper Cretaceous–Paleocene Akkeshi Formation along the Esashito coast of Hokkaido Island, northern Japan.
+To reproduce the 3D facies model, run the Python files in working_directory in this order.
 
 ### Translation from 3D Point Cloud to 2D Images
 The point cloud exhibiting the outcrop is segmented and translated into a set of 2-D images containing the color and roughness properties of the outcrop surface.
