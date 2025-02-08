@@ -14,16 +14,14 @@ Created by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target="_
 To reproduce the 3D facies model, run the Python files in the code folder in this order.
 
 ### Translation from 3D Point Cloud to 2D Images
-The point cloud exhibiting the outcrop was segmented and translated into a set of 2-D images.
-Open3D version 0.8.0.0, a Python package, was used to process 3-D point cloud data.
+The point cloud exhibiting the outcrop is segmented and translated into a set of 2-D images containing the color and roughness properties of the outcrop surface.
+Open3D version 0.8.0.0, a Python package, is utilized to process 3-D point cloud data.
 To obtain the 2D images:
 
     python dataset_generation.py
 
-The images had four channels exhibiting red, green, and blue (RGB) colors and roughness properties.
-
 ### Training of CNN model
-A U-net-type architecture with residual connections was adopted for the CNN model to conduct semantic segmentation of the outcrop images.
+A U-net-type architecture with residual connections is adopted for the CNN model to conduct semantic segmentation of the outcrop images.
 The neural network model was built by Python version 3.9 with TensorFlow version 2.8.2 and Keras version 2.8.0.
 To build and train the CNN model:
 
@@ -38,6 +36,6 @@ To construct the 3D facies model from predicted 2D labels:
 
     transcribe.py
 
-To visualize the 3D facies model using Open3D library:
+To visualize the 3D facies model using Open3D:
 
     visualize.py
