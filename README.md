@@ -15,7 +15,7 @@ Developed by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target=
 
 The data includes the outcrop of a mass-transport deposit exposed in the Upper Cretaceous–Paleocene Akkeshi Formation along the Esashito coast of Hokkaido Island, northern Japan.
 
-To reproduce the 3D facies model, run the Python files in working_directory in this order.
+To reproduce the 3D facies model, run the Python files in `working_directory` folder in this order.
 
 ### 1. Translate 3D Point Cloud to 2D Images
 The point cloud of the outcrop is segmented and translated into a set of 2-D images that capture the color and roughness properties of the outcrop surface.
@@ -47,11 +47,3 @@ Construct the 3D facies model from predicted 2D labels:
 Visualize the 3D facies model using Open3D:
 
     python visualize.py
-
-## Notes
-
-- Ensure Open3D, TensorFlow, and Keras are installed before running the scripts.
-
-- For better results, consider fine-tuning the CNN model with additional training data.
-
-- The methodology is based on <a href="" target="_blank">Sato et al. (2025)</a>.
