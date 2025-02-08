@@ -45,3 +45,15 @@ Construct the 3D facies model from predicted 2D labels:
 Visualize the 3D facies model using Open3D:
 
     python visualize.py
+
+## Citation
+If *3DFaciesModel* contributes to your project, please cite:
+
+	@article{sato2025,
+	  title={Automatic facies classification using convolutional neural network for three-dimensional outcrop data: Application to the outcrop of the mass-transport deposit},
+	  author={Sato, Ryusei and Kazuki, Kikuchi and Hajime, Naruse},
+	  journal={AAPG Bulletin},
+      volume={}
+      page={}
+	  year={2025}
+	}
