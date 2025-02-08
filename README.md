@@ -1,6 +1,6 @@
 # 3DFaciesModel
 
-Created by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target="_blank">Kazuki Kikuchi</a>, <a href=https://turbidite.secret.jp/>Hajime Naruse</a>.
+Created by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target="_blank">Kazuki Kikuchi</a>, <a href=https://turbidite.secret.jp/>Hajime Naruse</a> from Kyoto University.
 
 ![3D_models](https://github.com/sugar-ryusei/3DFaciesModel/blob/main/figure/facies_models.png)
 
