@@ -19,7 +19,6 @@ To reproduce the 3D facies model, run the Python files in `working_directory` fo
 
 ### 1. Translate 3D Point Cloud to 2D Images
 The point cloud of the outcrop is segmented and translated into a set of 2-D images that capture the color and roughness properties of the outcrop surface.
-
 This process uses Open3D (version 0.8.0.0) for handling 3D point cloud data.
 
 Run the following command to generate 2D images:
@@ -28,7 +27,6 @@ Run the following command to generate 2D images:
 
 ### 2. Train the CNN model
 A U-Net-based CNN with residual connections is used for semantic segmentation of the outcrop images.
-
 The model is implemented using Python version 3.9 with TensorFlow version 2.8.2 and Keras version 2.8.0.
 
 To build and train the CNN model, execute:
