@@ -1,6 +1,6 @@
 # 3DFaciesModel
 
-3DFaciesModel proposes a new method to construct a 3D facies model of an outcrop using a convolutional neural network (CNN) model based on <a href="" target="_blank">Sato et al. (2025)</a>.
+*3DFaciesModel* proposes a new method to construct a 3D facies model of an outcrop using a convolutional neural network (CNN) model based on <a href="" target="_blank">Sato et al. (2025)</a>.
 
 ![](https://github.com/sugar-ryusei/3DFaciesModel/blob/main/figure/facies_models.png)
 
