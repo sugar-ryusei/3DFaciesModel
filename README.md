@@ -51,9 +51,9 @@ If *3DFaciesModel* contributes to your project, please cite:
 
 	@article{sato2025,
 	  title={Automatic facies classification using convolutional neural network for three-dimensional outcrop data: Application to the outcrop of the mass-transport deposit},
-	  author={Sato, Ryusei and Kazuki, Kikuchi and Hajime, Naruse},
+	  author={Sato, Ryusei and Kikuchi, Kazuki and Naruse, Hajime},
 	  journal={AAPG Bulletin},
-      volume={}
-      page={}
+      	  volume={}
+      	  page={}
 	  year={2025}
 	}
