@@ -25,6 +25,10 @@ Run the following command to generate 2D images:
 
     python dataset_generation.py
 
+Also, run the following command to generate the training and validation dataset:
+
+    python file_select.py
+
 ### 2. Train the CNN model
 A U-Net-based CNN with residual connections is used for semantic segmentation of the outcrop images.
 The model is implemented using Python version 3.9 with TensorFlow version 2.8.2 and Keras version 2.8.0.
