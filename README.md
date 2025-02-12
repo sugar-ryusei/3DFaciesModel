@@ -6,14 +6,14 @@
 
 This approach utilizes a 3D point cloud of an outcrop constructed by drone photogrammetry, which is effective even for large-scale or inaccessible outcrops.
 
+Our method is applied to the outcrop of a mass-transport deposit exposed in the Upper Cretaceous–Paleocene Akkeshi Formation along the Esashito coast of Hokkaido Island, northern Japan.
+
 Developed by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target="_blank">Kazuki Kikuchi</a>, <a href=https://turbidite.secret.jp/>Hajime Naruse</a> from Kyoto University, Japan.
 
 
 ## Usage
 
-*3DFaciesModel* includes sample outcrop data to allow testing of the program.
-
-The data includes the outcrop of a mass-transport deposit exposed in the Upper Cretaceous–Paleocene Akkeshi Formation along the Esashito coast of Hokkaido Island, northern Japan.
+*3DFaciesModel* includes sample outcrop data located approximately 350 m from the western end of the outcrop to allow testing of the program.
 
 To reproduce the 3D facies model, run the Python files in `working_directory` folder in this order.
 
@@ -25,7 +25,9 @@ Run the following command to generate 2D images:
 
     python dataset_generation.py
 
-Also, run the following command to generate the training and validation dataset:
+"3DFaciesModel* also includes annotated images for the sample outcrop data.
+
+Generate the training and validation datasets consisting of outcrop images and their corresponding annotated images by running:
 
     python file_select.py
 
