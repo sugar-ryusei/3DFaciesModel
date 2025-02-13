@@ -15,6 +15,8 @@ Developed by <a href="https://orcid.org/0009-0008-3182-0980" target="_blank">Ryu
 
 *3DFaciesModel* includes sample outcrop data located approximately 350 m from the western end of the outcrop to allow testing of the program.
 
+Conda environment `.yml` files are stored in `conda_environment` folder. Use `pointcloud.yml` for point cloud processing and `neuralnetwork.yml` for building the CNN model, if needed.
+
 To reproduce the 3D facies model, run the Python files in `working_directory` folder in this order.
 
 ### 1. Translate 3D Point Cloud to 2D Images
