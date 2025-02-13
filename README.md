@@ -8,7 +8,7 @@ This approach utilizes a 3D point cloud of an outcrop constructed by drone photo
 
 Our method is applied to the outcrop of a mass-transport deposit exposed in the Upper Cretaceous–Paleocene Akkeshi Formation along the Esashito coast of Hokkaido Island, northern Japan.
 
-Developed by Ryusei Sato, <a href="https://researchmap.jp/k_kikuchi1020" target="_blank">Kazuki Kikuchi</a>, <a href=https://turbidite.secret.jp/>Hajime Naruse</a> from Kyoto University, Japan.
+Developed by <a href="https://orcid.org/0009-0008-3182-0980" target="_blank">Ryusei Sato</a>, <a href="https://researchmap.jp/k_kikuchi1020" target="_blank">Kazuki Kikuchi</a>, <a href="https://orcid.org/0000-0003-3863-3404" target="_blank">Hajime Naruse</a> from Kyoto University, Japan.
 
 
 ## Usage
