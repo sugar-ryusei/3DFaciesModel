@@ -25,7 +25,7 @@ Run the following command to generate 2D images:
 
     python dataset_generation.py
 
-"3DFaciesModel* also includes annotated images for the sample outcrop data.
+*3DFaciesModel* also includes annotated images for the sample outcrop data.
 
 Generate the training and validation datasets consisting of outcrop images and their corresponding annotated images by running:
 
