@@ -57,11 +57,17 @@ Visualize the 3D facies model using Open3D:
 ## Citation
 If *3DFaciesModel* contributes to your project, please cite:
 
-	@article{sato2025,
-	  title={Automatic facies classification using convolutional neural network for three-dimensional outcrop data: Application to the outcrop of the mass-transport deposit},
-	  author={Sato, Ryusei and Kikuchi, Kazuki and Naruse, Hajime},
-	  journal={AAPG Bulletin},
-      	  volume={},
-	  page={},
-	  year={2025}
-	}
+    @article{10.1306/12162423082,
+      author = {Sato, Ryusei and Kikuchi, Kazuki and Naruse, Hajime},
+      title = {Automatic facies classification using convolutional neural network for three-dimensional outcrop data: Application to the outcrop of the mass-transport deposit},
+      journal = {AAPG Bulletin},
+      volume = {109},
+      number = {2},
+      pages = {271-286},
+      year = {2025},
+      month = {02},
+      issn = {0149-1423},
+      doi = {10.1306/12162423082},
+      url = {https://doi.org/10.1306/12162423082},
+      eprint = {https://pubs.geoscienceworld.org/aapg/aapgbull/article-pdf/109/2/271/7110119/bltn23082.pdf},
+    }
